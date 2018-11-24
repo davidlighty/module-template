@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 flow-typed/
+lib/
 
 # Logs
 logs
