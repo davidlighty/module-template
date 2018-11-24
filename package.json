@@ -48,7 +48,7 @@
     "flow status": "flow status",
     "flow coverage": "flow coverage",
     "test": "jest",
-    "test:coverage": "node jest && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test:coverage": "yarn jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
