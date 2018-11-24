@@ -47,7 +47,8 @@
     "flow stop": "flow stop",
     "flow status": "flow status",
     "flow coverage": "flow coverage",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "node jest && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
