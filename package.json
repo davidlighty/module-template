@@ -16,6 +16,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
+    "coveralls": "^3.0.2",
     "eslint": "5.3.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -46,7 +47,8 @@
     "flow stop": "flow stop",
     "flow status": "flow status",
     "flow coverage": "flow coverage",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "yarn jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
