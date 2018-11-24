@@ -1,6 +1,7 @@
 # module-template
 
-[![Build Status](https://travis-ci.org/davidlighty/module-template.svg?branch=master)](https://travis-ci.org/davidlighty/module-template)
+MASTER [![Build Status](https://travis-ci.org/davidlighty/module-template.svg?branch=master)](https://travis-ci.org/davidlighty/module-template)
+DEVELOP [![Build Status](https://travis-ci.org/davidlighty/module-template.svg?branch=develop)](https://travis-ci.org/davidlighty/module-template)
 
 Quick template to jumpstart your next npm module or js project. Slightly opinionated with typecheckig using Flow, AirBnb linting styles, and building with Rollup.
 The following sections will follow-up on some of these opinons, followed by a references section to allow you to read up on the different projects directly.
