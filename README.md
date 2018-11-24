@@ -24,7 +24,7 @@ The following sections will follow-up on some of these opinons, followed by a re
 
 This template suggests using jest and jest theories for testing.
 
-### What are [theroies](https://www.npmjs.com/package/jest-theories)?
+### What are [theories](https://www.npmjs.com/package/jest-theories)?
 
 This is a way to run a single test with multiple inputs. Shortcut looping.
 
