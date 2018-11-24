@@ -10,15 +10,15 @@ The following sections will follow-up on some of these opinons, followed by a re
 1. Clone this repo
 2. Copy into your own new repo "@me/newModule"
 3. Update:
-4. package.json (module name, author, repository, description)
-5. rollup.config.js (module name)
-6. Install yarn
-7. Run yarn
-8. yarn flow-typed install
-9. Run yarn flow init
-10. Run yarn test
-11. Run yarn build
-    1. Should have a lib/index.esm.js file
+   1. package.json (module name, author, repository, description)
+   2. rollup.config.js (module name)
+4. Install yarn
+5. Run yarn
+6. yarn flow-typed install
+7. Run yarn flow init
+8. Run yarn test
+9. Run yarn build
+   1. Should have a lib/index.esm.js file
 
 ## Test with Jest
 
