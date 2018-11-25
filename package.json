@@ -1,7 +1,7 @@
 {
-  "name": "module-template",
+  "name": "@ironhorse/module-template",
   "version": "1.0.0",
-  "description": "quick npm module template",
+  "description": "quick js module template",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -47,6 +47,8 @@
     "flow stop": "flow stop",
     "flow status": "flow status",
     "flow coverage": "flow coverage",
+    "lint": "eslint src test",
+    "prepare": "yarn clean && yarn lint && yarn test",
     "test": "jest",
     "test:coverage": "yarn jest --coverage --coverageReporters=text-lcov | coveralls"
   },
@@ -54,7 +56,7 @@
     "type": "git",
     "url": "git+https://github.com/davidlighty/module-template.git"
   },
-  "author": "",
+  "author": "David Lighty <david.lighty@gmail.com> (https://github.com/davidlighty)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidlighty/module-template/issues"
