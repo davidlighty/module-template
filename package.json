@@ -48,7 +48,7 @@
     "flow status": "flow status",
     "flow coverage": "flow coverage",
     "lint": "eslint src",
-    "prepare": "yarn clean && yarn lint && yarn test",
+    "prepare": "yarn lint && yarn test",
     "test": "jest",
     "test:coverage": "yarn jest --coverage --coverageReporters=text-lcov | coveralls"
   },
