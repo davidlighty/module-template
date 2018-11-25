@@ -38,7 +38,7 @@ export default [
     // output configuration
     output: {
       // name visible for other scripts
-      name: 'npmLibPackageExample',
+      name: 'module-template',
       // output file location
       file: 'lib/index.esm.js',
       // format of generated JS file, also: esm, and others are available
@@ -53,7 +53,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'npmLibPackageExample',
+      name: 'module-template',
       file: 'lib/index.js',
       format: 'cjs',
       sourcemap: true
